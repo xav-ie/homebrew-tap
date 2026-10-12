@@ -1,6 +1,6 @@
 cask "tetherbug" do
-  version "0.1.0"
-  sha256 "0fa9c5c5b12c80dd01e2f78b52a57dc1492480cbea6a11b01dc5458cc786bee7"
+  version "0.1.1"
+  sha256 "8271c2c98431e5e789a5c3f7b16c0a37dc5c6203cb970ea1849af6fd05391c61"
 
   url "https://github.com/xav-ie/Tetherbug/releases/download/v#{version}/Tetherbug-v#{version}.zip"
   name "Tetherbug"
