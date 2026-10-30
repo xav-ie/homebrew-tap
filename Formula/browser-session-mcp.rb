@@ -8,19 +8,19 @@ class BrowserSessionMcp < Formula
     depends_on macos: :sonoma
 
     on_arm do
-      url "https://github.com/xav-ie/browser-session-mcp/releases/download/v0.1.7/browser-session-v0.1.7-aarch64-apple-darwin.tar.gz"
-      sha256 "100e5d17bd2786490a7117f31e51245f32c0505564b02156e6122cfcd380724f"
+      url "https://github.com/xav-ie/browser-session-mcp/releases/download/v0.1.8/browser-session-v0.1.8-aarch64-apple-darwin.tar.gz"
+      sha256 "87dd0ad3a73840e66a8d89083597b2a37c047ee7152783bf1381136feba9fc6c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/xav-ie/browser-session-mcp/releases/download/v0.1.7/browser-session-v0.1.7-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "7b85e7b5bd379d4b347f59219796f495b89db5510e44edd3d94600344401d9bc"
+      url "https://github.com/xav-ie/browser-session-mcp/releases/download/v0.1.8/browser-session-v0.1.8-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "eae276ae1515ae37a9098c83f4f479210c8c36ed8b5dd23ba63197f01447dd80"
     end
     on_arm do
-      url "https://github.com/xav-ie/browser-session-mcp/releases/download/v0.1.7/browser-session-v0.1.7-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "8318171d5eb0ab915c50218b3e9a9c3869d31249885b0840a79c38dd8116dbbe"
+      url "https://github.com/xav-ie/browser-session-mcp/releases/download/v0.1.8/browser-session-v0.1.8-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "0953cddb828503ac9d62c8e0cc8593c77188e477cc9553399cf8a0b5d71a7f51"
     end
   end
 
